@@ -1,0 +1,11 @@
+{
+  "bankVersion": "1.0.0",
+  "questionsAudited": 500,
+  "semanticDuplicateChecks": true,
+  "circleFormulaChecks": true,
+  "probabilityChecks": true,
+  "inequalityVisualChecks": true,
+  "twoStageTravelChecks": true,
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,34 @@
+{
+  "name": "jens-matte",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Adaptivt mattespill for 5.–7. trinn med 500 originale oppgaver.",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node scripts/migrate.mjs && next start",
+    "start:next": "next start",
+    "db:migrate": "node scripts/migrate.mjs",
+    "questions:generate": "python3 scripts/generate_question_bank.py",
+    "questions:validate": "node scripts/validate-question-bank.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run questions:validate && npm run questions:audit && npm run typecheck",
+    "questions:audit": "python3 scripts/audit_question_bank.py"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "pg": "^8.16.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "@types/pg": "^8.15.5",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "typescript": "^5.9.3"
+  }
+}

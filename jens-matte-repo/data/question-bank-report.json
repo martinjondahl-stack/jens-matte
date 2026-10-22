@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "seed": 20261020,
+  "total": 500,
+  "topics": {
+    "Tall og regnearter": 70,
+    "Brøk": 75,
+    "Desimaltall": 50,
+    "Prosent": 55,
+    "Algebra og mønster": 50,
+    "Geometri": 45,
+    "Måling": 35,
+    "Statistikk og sannsynlighet": 35,
+    "Økonomi": 30,
+    "Problemløsing": 55
+  },
+  "grades": {
+    "5": 183,
+    "6": 155,
+    "7": 162
+  },
+  "levels": {
+    "1": 8,
+    "2": 42,
+    "3": 58,
+    "4": 75,
+    "5": 81,
+    "6": 81,
+    "7": 67,
+    "8": 47,
+    "9": 25,
+    "10": 16
+  },
+  "types": {
+    "quick": 112,
+    "standard": 309,
+    "challenge": 79
+  },
+  "visualQuestions": 264,
+  "visualTypes": {
+    "numberLine": 25,
+    "fractionBar": 28,
+    "fractionCompare": 5,
+    "percentGrid": 16,
+    "priceTag": 10,
+    "progressBar": 7,
+    "pattern": 10,
+    "functionTable": 5,
+    "rectangle": 10,
+    "triangle": 8,
+    "circle": 7,
+    "angles": 8,
+    "coordinateGrid": 6,
+    "compositeL": 6,
+    "ruler": 6,
+    "clockPair": 8,
+    "prism": 7,
+    "mapScale": 5,
+    "dataDots": 10,
+    "barChart": 10,
+    "probabilityBag": 10,
+    "dice": 3,
+    "receipt": 10,
+    "budget": 10,
+    "offers": 5,
+    "recipe": 10,
+    "tiledRectangle": 7,
+    "combinationGrid": 6,
+    "fractionTank": 6
+  },
+  "errors": []
+}
